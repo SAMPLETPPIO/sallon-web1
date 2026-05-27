@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>Lotus Glow Salon | Premium Beauty & Wellness in Sonipat</title>
+  <meta name="description" content="Lotus Glow Salon in Model Town, Sonipat offers luxury facials, hair styling, bridal makeup, and spa treatments. Book your premium beauty experience today. Open 10 AM - 10 PM daily.">
+  <link rel="canonical" href="https://lotusglowsalon.com">
+
+  <!-- Preload Google Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" as="style">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "Lotus Glow Salon",
+    "image": "",
+    "url": "https://lotusglowsalon.com",
+    "telephone": "+917015084928",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Near Bharat Petrol Pump, Model Town",
+      "addressLocality": "Sonipat",
+      "addressRegion": "Haryana",
+      "postalCode": "131001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.9931,
+      "longitude": 77.0151
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "10:00",
+      "closes": "22:00"
+    },
+    "sameAs": []
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --bg-elevated: #121212;
+      --bg-card: #1a1a1a;
+      --gold: #d4af37;
+      --gold-light: #f0d98c;
+      --gold-dark: #a88923;
+      --text: #faf8f5;
+      --text-muted: rgba(250, 248, 245, 0.75);
+      --border: rgba(212, 175, 55, 0.2);
+      --shadow-gold: 0 8px 32px rgba(212, 175, 55, 0.12);
+      --shadow-dark: 0 16px 48px rgba(0, 0, 0, 0.6);
+      --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.02em;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .section {
+      padding: 100px 0;
+      position: relative;
+    }
+
+    .section-title {
+      font-size: clamp(2.5rem, 5vw, 3.75rem);
+      margin-bottom: 1rem;
+      text-align: center;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 1.125rem;
+      max-width: 600px;
+      margin: 0 auto 4rem;
+      font-weight: 300;
+    }
+
+    /* Navigation */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(10, 10, 10, 0.8);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+      transition: var(--transition);
+    }
+
+    nav.scrolled {
+      background: rgba(10, 10, 10, 0.98);
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 0;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.75rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+
+    .logo span {
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.95rem;
+      font-weight: 400;
+      letter-spacing: 0.03em;
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: width 0.3s ease;
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .mobile-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+
+    .mobile-toggle span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--gold);
+      margin: 5px 0;
+      transition: var(--transition);
+    }
+
+    /* Hero */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+      background: radial-gradient(circle at 20% 50%, rgba(212, 175, 55, 0.08) 0%, transparent 50%),
+                  radial-gradient(circle at 80% 80%, rgba(212, 175, 55, 0.06) 0%, transparent 50%),
+                  var(--bg);
+      padding-top: 100px;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-image: 
+        linear-gradient(90deg, transparent 0%, rgba(212, 175, 55, 0.03) 50%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .hero-content {
+      max-width: 720px;
+      z-index: 1;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.5rem 1.25rem;
+      border: 1px solid var(--border);
+      border-radius: 50px;
+      font-size: 0.875rem;
+      color: var(--gold-light);
+      margin-bottom: 2rem;
+      letter-spacing: 0.05em;
+    }
+
+    .hero h1 {
+      font-size: clamp(3rem, 7vw, 5rem);
+      margin-bottom: 1.5rem;
+      font-weight: 300;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      margin-bottom: 3rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    .hero-cta {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 1rem 2.5rem;
+      border: none;
+      border-radius: 4px;
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      cursor: pointer;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+      color: var(--bg);
+      box-shadow: var(--shadow-gold);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 12px 40px rgba(212, 175, 55, 0.2);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--gold);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(212, 175, 55, 0.1);
+      border-color: var(--gold);
+    }
+
+    .btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+      transform: none !important;
+    }
+
+    /* Services */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2rem;
+      margin-top: 4rem;
+    }
+
+    .service-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 3rem 2.5rem;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+    }
+
+    .service-card:hover::before {
+      transform: translateX(100%);
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      border-color: rgba(212, 175, 55, 0.4);
+      box-shadow: var(--shadow-dark);
+    }
+
+    .service-icon {
+      width: 48px;
+      height: 48px;
+      margin-bottom: 1.5rem;
+      color: var(--gold);
+    }
+
+    .service-card h3 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+      color: var(--gold-light);
+    }
+
+    .service-card p {
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+    }
+
+    .service-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      color: var(--gold);
+      font-weight: 600;
+    }
+
+    /* Booking Section */
+    .booking {
+      background: linear-gradient(180deg, var(--bg) 0%, var(--bg-elevated) 100%);
+    }
+
+    .booking-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .booking-info h3 {
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--gold-light);
+    }
+
+    .info-item {
+      display: flex;
+      gap: 1.5rem;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: var(--bg-card);
+      border-left: 2px solid var(--gold);
+      border-radius: 4px;
+    }
+
+    .info-icon {
+      width: 24px;
+      height: 24px;
+      color: var(--gold);
+      flex-shrink: 0;
+    }
+
+    .info-item h4 {
+      font-size: 1.125rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .info-item p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .booking-form {
+      background: var(--bg-card);
+      padding: 3rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-dark);
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      letter-spacing: 0.03em;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.875rem 1rem;
+      background: var(--bg);
+      border: 1px solid rgba(212, 175, 55, 0.15);
+      border-radius: 4px;
+      color: var(--text);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 1rem;
+      transition: var(--transition);
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
+    }
+
+    .form-group input.error,
+    .form-group select.error {
+      border-color: #e74c3c;
+    }
+
+    .error-message {
+      display: none;
+      color: #e74c3c;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+
+    .error-message.show {
+      display: block;
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    /* Map */
+    .map-wrapper {
+      margin-top: 3rem;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-dark);
+    }
+
+    .map-wrapper iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      filter: grayscale(0.2) invert(0.92) contrast(0.88) brightness(0.9);
+    }
+
+    /* Footer */
+    footer {
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+      padding: 4rem 0 2rem;
+    }
+
+    .footer-content {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .footer-brand h3 {
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-brand p {
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
+    .footer-links h4 {
+      font-size: 1rem;
+      margin-bottom: 1rem;
+      color: var(--gold-light);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    .footer-links ul {
+      list-style: none;
+    }
+
+    .footer-links li {
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .footer-links a:hover {
+      color: var(--gold);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(212, 175, 55, 0.1);
+      padding-top: 2rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    /* Floating Buttons */
+    .floating-btns {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      z-index: 999;
+    }
+
+    .floating-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+      transition: var(--transition);
+      cursor: pointer;
+      border: none;
+    }
+
+    .floating-btn:hover {
+      transform: scale(1.1);
+    }
+
+    .whatsapp-btn {
+      background: #25d366;
+    }
+
+    .call-btn {
+      background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+    }
+
+    .floating-btn svg {
+      width: 28px;
+      height: 28px;
+      color: white;
+    }
+
+    /* Animations */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .fade-in {
+      animation: fadeInUp 0.8s ease forwards;
+    }
+
+    /* Toast */
+    .toast {
+      position: fixed;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%) translateY(100px);
+      background: var(--bg-card);
+      border: 1px solid var(--gold);
+      padding: 1rem 2rem;
+      border-radius: 4px;
+      box-shadow: var(--shadow-dark);
+      opacity: 0;
+      transition: all 0.4s ease;
+      z-index: 2000;
+    }
+
+    .toast.show {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 968px) {
+      .section {
+        padding: 80px 0;
+      }
+
+      .nav-links {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 80px);
+        background: var(--bg);
+        flex-direction: column;
+        padding: 3rem 2rem;
+        gap: 2rem;
+        transition: left 0.4s ease;
+        border-top: 1px solid var(--border);
+      }
+
+      .nav-links.active {
+        left: 0;
+      }
+
+      .mobile-toggle {
+        display: block;
+      }
+
+      .booking-wrapper {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .footer-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .hero-cta {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .floating-btns {
+        bottom: 1rem;
+        right: 1rem;
+      }
+
+      .floating-btn {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="container">
+      <div class="nav-wrapper">
+        <div class="logo">LOTUS <span>GLOW</span></div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#booking">Book Now</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content fade-in">
+        <span class="hero-badge">Premium Beauty & Wellness</span>
+        <h1>Experience Luxury Redefined at Lotus Glow Salon</h1>
+        <p>Discover your most radiant self at Sonipat's premier beauty destination. Expert stylists, luxury treatments, and personalized care in the heart of Model Town.</p>
+        <div class="hero-cta">
+          <a href="#booking" class="btn btn-primary">
+            Book Appointment
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#services" class="btn btn-secondary">Explore Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section-title">Signature Services</h2>
+      <p class="section-subtitle">Indulge in our curated collection of luxury beauty treatments designed to rejuvenate your mind, body, and spirit</p>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <svg class="service-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M12 2v6m0 8v6m-6-6h12M6 8c0-3.314 2.686-6 6-6s6 2.686 6 6c0 1.657-.672 3.157-1.757 4.243L12 16.486 7.757 12.243C6.672 11.157 6 9.657 6 8z"/>
+          </svg>
+          <h3>Luxury Facials</h3>
+          <p>Rejuvenate your skin with our advanced facial treatments using premium products and cutting-edge techniques for that perfect glow.</p>
+          <div class="service-price">From ₹1,499</div>
+        </div>
+
+        <div class="service-card">
+          <svg class="service-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M4.5 9a3.5 3.5 0 1 7 0v5.5a3.5 3.5 0 1 1-7 0V9zm8 0a3.5 3.5 0 1 1 7 0v5.5a3.5 3.5 0 1 1-7 0V9z"/>
+          </svg>
+          <h3>Hair Styling & Care</h3>
+          <p>Transform your look with expert haircuts, coloring, keratin treatments, and styling by our award-winning professionals.</p>
+          <div class="service-price">From ₹799</div>
+        </div>
+
+        <div class="service-card">
+          <svg class="service-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M8 6h8m-8 6h8m-8 6h8M4 6h0m0 6h0m0 6h0"/>
+          </svg>
+          <h3>Bridal Makeup</h3>
+          <p>Look absolutely stunning on your special day with our bespoke bridal makeup and hairstyling packages. Pre-wedding trials included.</p>
+          <div class="service-price">From ₹9,999</div>
+        </div>
+
+        <div class="service-card">
+          <svg class="service-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+          </svg>
+          <h3>Spa & Massage</h3>
+          <p>Relax and unwind with our therapeutic body massages, aromatherapy, and wellness treatments in a serene environment.</p>
+          <div class="service-price">From ₹1,999</div>
+        </div>
+
+        <div class="service-card">
+          <svg class="service-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.5v9"/>
+          </svg>
+          <h3>Nail Art & Extensions</h3>
+          <p>Express your style with our creative nail art, gel extensions, manicures, and pedicures using international quality products.</p>
+          <div class="service-price">From ₹599</div>
+        </div>
+
+        <div class="service-card">
+          <svg class="service-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+            <path d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/>
+            <path d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"/>
+          </svg>
+          <h3>Eye & Brow Care</h3>
+          <p>Perfect your look with lash extensions, microblading, eyebrow shaping, and lamination by certified beauty experts.</p>
+          <div class="service-price">From ₹899</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Booking Section -->
+  <section class="section booking" id="booking">
+    <div class="container">
+      <h2 class="section-title">Book Your Session</h2>
+      <p class="section-subtitle">Reserve your appointment in seconds. We'll confirm via WhatsApp</p>
+      
+      <div class="booking-wrapper">
+        <div class="booking-info">
+          <h3>Why Choose Lotus Glow?</h3>
+          
+          <div class="info-item">
+            <svg class="info-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <div>
+              <h4>Certified Experts</h4>
+              <p>All our stylists are internationally trained and certified professionals with 5+ years experience</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <svg class="info-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+            </svg>
+            <div>
+              <h4>Premium Products</h4>
+              <p>We use only authentic luxury brands like L'Oréal, Schwarzkopf, and Lakme for superior results</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <svg class="info-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+            <div>
+              <h4>Flexible Timing</h4>
+              <p>Open 7 days a week from 10:00 AM to 10:00 PM. Early morning and late evening slots available</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <svg class="info-icon" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+              <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/>
+            </svg>
+            <div>
+              <h4>Hygienic Environment</h4>
+              <p>Fully sanitized tools, private treatment rooms, and strict hygiene protocols for your safety</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="booking-form" id="bookingForm">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your name">
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" required placeholder="9876543210" pattern="^[6-9]\d{9}$">
+              <div class="error-message" id="phoneError">Please enter a valid 10-digit Indian mobile number</div>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">Select Service *</label>
+              <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option value="Luxury Facial">Luxury Facial</option>
+                <option value="Hair Styling">Hair Styling & Care</option>
+                <option value="Bridal Makeup">Bridal Makeup</option>
+                <option value="Spa & Massage">Spa & Massage</option>
+                <option value="Nail Art">Nail Art & Extensions</option>
+                <option value="Eye & Brow Care">Eye & Brow Care</option>
+                <option value="Multiple Services">Multiple Services</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="time">Preferred Time *</label>
+            <select id="time" name="time" required>
+              <option value="">Select time slot</option>
+              <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+              <option value="11:00 AM - 12:00 PM">11:00 AM - 12:00 PM</option>
+              <option value="12:00 PM - 01:00 PM">12:00 PM - 01:00 PM</option>
+              <option value="01:00 PM - 02:00 PM">01:00 PM - 02:00 PM</option>
+              <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM</option>
+              <option value="03:00 PM - 04:00 PM">03:00 PM - 04:00 PM</option>
+              <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
+              <option value="05:00 PM - 06:00 PM">05:00 PM - 06:00 PM</option>
+              <option value="06:00 PM - 07:00 PM">06:00 PM - 07:00 PM</option>
+              <option value="07:00 PM - 08:00 PM">07:00 PM - 08:00 PM</option>
+              <option value="08:00 PM - 09:00 PM">08:00 PM - 09:00 PM</option>
+              <option value="09:00 PM - 10:00 PM">09:00 PM - 10:00 PM</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Special Requests (Optional)</label>
+            <textarea id="message" name="message" placeholder="Any specific requirements or questions?"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;" id="submitBtn">
+            Send Booking Request
+          </button>
+        </form>
+      </div>
+
+      <div class="map-wrapper" id="contact">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3478.8!2d77.0151!3d28.9931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjjCsDU5JzM1LjIiTiA3N8KwMDAnNTQuNCJF!5e0!3m2!1sen!2sin!4v1234567890"
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Lotus Glow Salon location in Model Town, Sonipat"
+          aria-label="Google Maps showing Lotus Glow Salon location">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <h3>LOTUS <span style="color: var(--gold);">GLOW</span></h3>
+          <p>Your destination for luxury beauty and wellness in Sonipat. Where elegance meets expertise, and every visit is a transformative experience.</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Facials</a></li>
+            <li><a href="#services">Hair Care</a></li>
+            <li><a href="#services">Bridal Makeup</a></li>
+            <li><a href="#services">Spa Treatments</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:+917015084928">+91 70150 84928</a></li>
+            <li>Near Bharat Petrol Pump<br>Model Town, Sonipat<br>Haryana 131001</li>
+            <li>Open: 10:00 AM - 10:00 PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Lotus Glow Salon. All rights reserved. Designed with elegance.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="floating-btns">
+    <a href="https://wa.me/917015084928?text=Hi%20Lotus%20Glow%2C%20I%20would%20like%20to%20book%20an%20appointment" 
+       class="floating-btn whatsapp-btn" 
+       target="_blank" 
+       rel="noopener"
+       aria-label="Chat with Lotus Glow Salon on WhatsApp">
+      <svg fill="currentColor" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+      </svg>
+    </a>
+    <a href="tel:+917015084928" 
+       class="floating-btn call-btn" 
+       aria-label="Call Lotus Glow Salon at +91 70150 84928">
+      <svg fill="currentColor" viewBox="0 0 24 24">
+        <path d="M21 16.42v3.536a1 1 0 01-.93.998c-.437.03-.794.046-1.07.046-8.837 0-16-7.163-16-16 0-.276.015-.633.046-1.07A1 1 0 014.044 3H7.58a.5.5 0 01.5.46c.042.455.115 1.006.217 1.632.091.576.07 1.05-.069 1.455l-.908 2.642a.5.5 0 00.151.577l3.11 2.372a.5.5 0 00.603.029c.832-.594 2.096-1.4 3.148-1.4.29 0 .572.07.817.199.202.106.39.248.56.422l1.551 1.582a.5.5 0 00.55.127z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast"></div>
+
+  <script>
+    // Navigation scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    const mobileToggle = document.getElementById('mobileToggle');
+    const navLinks = document.getElementById('navLinks');
+    mobileToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+
+    // Close mobile menu on link click
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+      });
+    });
+
+    // Set minimum date to today
+    const dateInput = document.getElementById('date');
+    const today = new Date().toISOString().split('T')[0];
+    dateInput.setAttribute('min', today);
+
+    // Phone validation
+    const phoneInput = document.getElementById('phone');
+    const phoneError = document.getElementById('phoneError');
+    const phonePattern = /^[6-9]\d{9}$/;
+
+    phoneInput.addEventListener('input', () => {
+      if (phoneInput.value && !phonePattern.test(phoneInput.value)) {
+        phoneInput.classList.add('error');
+        phoneError.classList.add('show');
+      } else {
+        phoneInput.classList.remove('error');
+        phoneError.classList.remove('show');
+      }
+    });
+
+    // Toast notification
+    function showToast(message) {
+      const toast = document.getElementById('toast');
+      toast.textContent = message;
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // Form submission with WhatsApp integration
+    const bookingForm = document.getElementById('bookingForm');
+    const submitBtn = document.getElementById('submitBtn');
+
+    bookingForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      // Validate phone
+      const phone = phoneInput.value.trim();
+      if (!phonePattern.test(phone)) {
+        phoneInput.classList.add('error');
+        phoneError.classList.add('show');
+        phoneInput.focus();
+        showToast('Please enter a valid 10-digit mobile number');
+        return;
+      }
+      
+      const formData = new FormData(bookingForm);
+      const data = Object.fromEntries(formData);
+      
+      // Disable submit button to prevent spam
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Sending...';
+      
+      // Create WhatsApp message
+      const message = `Hello Lotus Glow Salon!%0A%0A*New Booking Request*%0A%0A*Name:* ${data.name}%0A*Phone:* ${data.phone}%0A*Email:* ${data.email || 'Not provided'}%0A*Service:* ${data.service}%0A*Date:* ${data.date}%0A*Time:* ${data.time}%0A*Message:* ${data.message || 'None'}%0A%0APlease confirm my appointment. Thank you!`;
+      
+      const whatsappUrl = `https://wa.me/917015084928?text=${message}`;
+      
+      // Open WhatsApp
+      window.open(whatsappUrl, '_blank', 'noopener');
+      
+      showToast('Redirecting to WhatsApp... Booking form sent!');
+      
+      // Re-enable button after 3 seconds
+      setTimeout(() => {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Send Booking Request';
+        bookingForm.reset();
+      }, 3000);
+    });
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          const offset = 80;
+          const targetPosition = target.offsetTop - offset;
+          window.scrollTo({
+            top: targetPosition,
+            behavior: 'smooth'
+          });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
